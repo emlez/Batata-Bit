@@ -42,6 +42,11 @@ header {
   min-width: 320px;
   height: 334px;
   text-align: center;
+  background: linear-gradient(
+    207.8deg,
+    var(--warm-black) 16.69%,
+    var(--bitcoin-orange) 100%
+  );
 }
 header img {
   width: 150px;
@@ -54,4 +59,17 @@ header img {
   max-width: 900px;
   height: 218px;
   margin-top: 40px;
+}
+.header__title-container h1 {
+  color: var(--just-white);
+  font-size: 2.4rem;
+  font-weight: bold;
+  line-height: 2.6rem;
+}
+.header__title-container p {
+  color: var(--soft-orange);
+  font-size: 1.4rem;
+  font-weight: 500;
+  line-height: 1.8rem;
+  margin-top: 25px;
 }
