@@ -9,10 +9,10 @@ Agregando estilos:
 :root {
   --font-sans: "DM Sans", sans-serif;
   --font-inter: "Inter", sans-serif;
-  --size-300: 300;
+  /* --size-300: 300;
   --size-400: 400;
   --size-500: 500;
-  --size-700: 700;
+  --size-700: 700; */
   --bitcoin-orange: #f7931a;
   --soft-orange: #ffe9d5;
   --secondary-blue: #1a9af7;
@@ -64,7 +64,7 @@ header img {
 .header__title-container h1 {
   color: var(--just-white);
   font-size: 2.4rem;
-  font-weight: bold;
+  font-weight: 700;
   line-height: 2.6rem;
 }
 .header__title-container p {
@@ -88,7 +88,7 @@ header img {
   border: none;
   border-radius: 4px;
   font-size: 1.4rem;
-  font-weight: bold;
+  font-weight: 700;
   text-decoration: none;
   color: var(--black);
 }
@@ -121,4 +121,25 @@ main {
   min-width: 288px;
   max-width: 900px;
   margin: 0 auto;
+}
+.main__exchange-background-img {
+  width: 200px;
+  height: 200px;
+  margin: 0 auto;
+  margin-bottom: 50px;
+  background: url("./assets/img/bitcoin.svg") center/cover no-repeat;
+}
+.main__exchange-container h2 {
+  margin-bottom: 30px;
+  font-size: 2.4rem;
+  font-weight: 700;
+  line-height: 2.6rem;
+  color: var(--black);
+}
+.main__exchange-container p {
+  margin-bottom: 30px;
+  font-size: 1.4rem;
+  font-weight: 500;
+  line-height: 1.6rem;
+  color: #757575;
 }
