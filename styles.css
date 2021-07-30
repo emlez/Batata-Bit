@@ -213,3 +213,24 @@ main {
 .commissions-table-container .up {
   background: url("./assets/icons/trending-up.svg") center/cover no-repeat;
 }
+.currency-table--date,
+.commissions-table--date {
+  height: 30px;
+  width: max-content;
+  margin: 15px auto 0;
+  padding: 8px;
+  border-radius: 8px;
+}
+.currency-table--date p,
+.commissions-table--date p {
+  font-size: 1.2rem;
+  font-weight: 300;
+  line-height: 1.5rem;
+  color: var(--warm-black);
+}
+.currency-table--date {
+  background-color: var(--soft-orange);
+}
+.commissions-table--date {
+  background-color: var(--soft-blue);
+}
