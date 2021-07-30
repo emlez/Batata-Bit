@@ -30,7 +30,7 @@ Agregando estilos:
 }
 html {
   font-size: 62.5%;
-  font-family: "DM Sans", sans-serif;
+  font-family: var(--font-sans);
   min-width: 320px;
 }
 header {
@@ -142,4 +142,38 @@ main {
   font-weight: 500;
   line-height: 1.6rem;
   color: #757575;
+}
+.currency-table {
+  height: 360px;
+  width: 70%;
+  min-width: 235px;
+  max-width: 500px;
+  margin: 0 auto;
+  font-family: var(--font-inter);
+}
+.currency-table .currency-title {
+  margin-bottom: 15px;
+  font-size: 1.8rem;
+  font-weight: 700;
+  line-height: 2.3rem;
+  color: var(--bitcoin-orange);
+}
+.currency-table-container {
+  height: 250px;
+  width: 90%;
+  min-width: 230px;
+  max-width: 300px;
+  margin: 0 auto;
+}
+.currency-table-container table {
+  height: 100%;
+  width: 100%;
+}
+.currency-table-container td {
+  width: 50%;
+  font-size: 1.6rem;
+  font-weight: 500;
+  line-height: 1.9rem;
+  color: var(--grey);
+  background-color: var(--just-white);
 }
