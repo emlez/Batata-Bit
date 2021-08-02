@@ -360,7 +360,7 @@ main {
 }
 .plans-slider__container {
   display: flex;
-  gap: 10px;
+  gap: 20px;
   height: 316px;
   overflow-x: scroll;
   overscroll-behavior-x: contain;
@@ -385,6 +385,12 @@ main {
   background-color: var(--just-white);
   border-radius: 15px;
   box-shadow: 0 4px 8px rgba(89, 73, 30, 0.16);
+}
+.plans-card__container:first-child {
+  margin-left: 50px;
+}
+.plans-card__container:last-child {
+  margin-right: 50px;
 }
 .recommended {
   position: absolute;
