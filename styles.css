@@ -317,3 +317,17 @@ main {
   line-height: 1.8rem;
   color: #808080;
 }
+.bitcoin__img-container {
+  width: 100%;
+  min-width: 320px;
+  height: 60vh;
+  background: url("./assets/img/bitcoinbaby2x.png") center/cover no-repeat;
+}
+.bitcoin__img-container h2 {
+  padding-top: 60px;
+  font-size: 2.4rem;
+  font-weight: 700;
+  line-height: 2.6rem;
+  color: var(--just-white);
+  text-align: center;
+}
