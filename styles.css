@@ -360,7 +360,7 @@ main {
 }
 .plans-slider__container {
   display: flex;
-  gap: 20px;
+  gap: 10px;
   height: 316px;
   overflow-x: scroll;
   overscroll-behavior-x: contain;
@@ -447,4 +447,25 @@ main {
   height: 20px;
   background-image: url("./assets/icons/orange-right-arrow.svg");
   vertical-align: text-bottom;
+}
+footer {
+  width: 100%;
+  height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: var(--bitcoin-orange);
+}
+footer .footer__left ul {
+  font-size: 1.4rem;
+  font-weight: 500;
+  line-height: 1.8rem;
+  list-style: none;
+}
+.footer__left li {
+  margin: 10px 0;
+}
+.footer__left a {
+  text-decoration: none;
+  color: var(--just-white);
 }
