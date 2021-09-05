@@ -3,3 +3,7 @@
 .plans-slider__container {
   justify-content: center;
 }
+.bitcoin__img-container {
+  background: url("https://i.postimg.cc/KYYGWnr7/bitcoinbaby4x.png")
+    center/cover no-repeat;
+}
